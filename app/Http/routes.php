@@ -16,3 +16,7 @@ Route::get('/', 'PublicPostController@index');
 Route::auth();
 
 Route::resource('post', 'PostController');
+
+Route::get('design-sample', function () {
+    return view('design.sample');
+});

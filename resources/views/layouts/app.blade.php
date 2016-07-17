@@ -49,6 +49,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">All Posts</a></li>
                     <li><a href="{{ url('/post') }}">My Posts</a></li>
+                    <li><a href="{{ url('/design-sample') }}">Design Sample</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
